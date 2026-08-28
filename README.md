@@ -11,3 +11,12 @@ Loss-Maker Investigation: Identifying the "Bottom 5" products (specifically the 
 Customer VIP Tracking: Identifying the Top 5 customers by revenue contribution.
 Time-Based Comparison: Implemented a dual-line chart to compare Sales and Profit trends month-over-month.
 Key Recommendation: The organization should implement a "Discount Ceiling" of 20% and audit the pricing of high-volume, low-margin items like 3D Printers.
+
+Week 4 Update: HealthConnect Experience Lab
+This week marks the start of the HealthConnect Experience Lab. I am pivoting from retail analysis to healthcare, focusing on improving patient appointment attendance.
+Tasks Completed:
+Initial Analysis: Reviewed the HealthConnect dataset to understand patient "No-Show" patterns.
+DQA Planning: Developed a plan to handle missing distance and wait-time data using neighborhood averages.
+KPI Definition: Proposed new metrics like the No-Show Rate (%) and SMS Effectiveness Ratio.
+Strategic Planning: Investigated the psychological impact of "Wait Fatigue" and end-of-day scheduling.
+Next Steps: In Week 5, I will begin data transformation and building the HealthConnect interactive dashboard.
