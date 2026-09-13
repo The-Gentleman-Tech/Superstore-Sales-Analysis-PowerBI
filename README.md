@@ -25,3 +25,23 @@ Next Steps: In Week 5, I will begin data transformation and building the HealthC
 EDA Result: Confirmed a massive "Wait Fatigue" trend where no-shows spike to 57.4% for long lead-times.
 Channel Insight: Identified SMS as the most effective reminder channel (52.0% show rate).
 Architecture: Successfully deployed a monochrome teal-themed analytical foundation.
+
+
+## 🏥 Week 6: HealthConnect Advanced Analytics & Data Science Integration
+### 📌 Overview
+Week 6 focused on cross-track collaboration with the Data Science team (Pod 01) to integrate predictive Machine Learning feature drivers into an executive two-page Power BI dashboard suite to reduce patient no-shows.
+### 📊 Dashboard Preview
+| Page 1: Executive Overview | Page 2: Advanced Analytics |
+| :---: | :---: |
+| ![Executive Overview](Week%206/Dashboard_Page1_Executive_Overview.png) | ![Advanced Analytics](Week%206/Dashboard_Page2_Advanced_Analytics.png) |
+### 🔑 Key Findings & Data Science Integration
+* **Dataset Scope**: Analyzed **4,737 active, non-cancelled appointments** (51.2% baseline no-show rate) following the exclusion of 263 cancelled records.
+* **Lead Time Fatigue (`wait group`)**: Appointments scheduled **>14 days in advance (Extended)** face a critical **57.4% no-show rate**, compared to **26.6%** for short lead times (0–3 days).
+* **Patient Type Risk (`is_new_patient`)**: Returning patients exhibit a higher no-show rate (**51.4%**) than first-time patients (**45.6%**).
+* **Behavioral Risk Progression (`previous_no_shows`)**: Prior missed appointments strongly predict future non-attendance, scaling from **46.3%** (0 prior misses) up to **100.0%** (5 prior misses).
+* **Model Validation**: Cross-track collaboration validated **Logistic Regression (61.6% accuracy)** over Random Forest (60.0%) due to its high interpretability for clinical leadership.
+### 💡 Strategic Recommendations
+1. **7-Day Re-Confirmation Protocol**: Implement automated multi-channel re-confirmations for bookings in the Extended wait group (>14 days).
+2. **Tailored Continuity Messaging**: Tailor reminder messaging for returning patients to emphasize ongoing care plans.
+3. **Channel Allocation**: Prioritize direct SMS and WhatsApp over email for long-lead appointments, where SMS reduces no-shows to **54.3%** vs. email's **59.0%**.
+📁 All Week 6 report files, Power BI workbooks, and datasets are available in the [`/Week 6`](./Week%206) folder.
