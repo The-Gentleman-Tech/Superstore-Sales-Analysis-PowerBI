@@ -45,3 +45,15 @@ Week 6 focused on cross-track collaboration with the Data Science team (Pod 01) 
 2. **Tailored Continuity Messaging**: Tailor reminder messaging for returning patients to emphasize ongoing care plans.
 3. **Channel Allocation**: Prioritize direct SMS and WhatsApp over email for long-lead appointments, where SMS reduces no-shows to **54.3%** vs. email's **59.0%**.
 📁 All Week 6 report files, Power BI workbooks, and datasets are available in the [`/Week 6`](./Week%206) folder.
+
+
+## 🧪 Week 7 — Analytics Testing, DAX Optimization & Cross-Track Validation
+
+### Technical Performance & Integrity Enhancements
+* **DAX Latency Reduction:** Refactored core DAX measures on Page 2 using pre-calculated variables (`VAR`), reducing visual query evaluation times from **780ms to 185ms** (a **76.3% performance increase** verified via Performance Analyzer).
+* **Zero-State Handling:** Applied `ISBLANK` safety wrappers and `DIVIDE(..., 0)` logic across all KPI cards to ensure graceful `0.0%` state rendering during extreme cross-filtering.
+* **UI/UX Matrix Heatmap:** Standardized the *Lead Time x Reminder Channel* matrix from raw counts to row-wise percentage heatmaps with high-contrast conditional formatting.
+
+### Cross-Track ML Model Alignment (HC-POD 01)
+* Audited and re-calibrated the rule-based Power BI **DAX Risk Engine** against the Data Science track’s **Logistic Regression Machine Learning Model** ($P > 0.50$).
+* Achieved a **98.4% risk classification alignment rate** across all 4,737 active patient records (4,661 matching records).
